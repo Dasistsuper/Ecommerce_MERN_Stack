@@ -1,4 +1,4 @@
-import { Add, Remove, DeleteOutline } from "@material-ui/icons";
+import { Add, Remove, DeleteOutline } from "@mui/icons-material";
 import { useSelector } from "react-redux";
 import styled from "styled-components";
 import Announcement from "../components/Announcement";
