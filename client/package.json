@@ -16,6 +16,7 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.24.0",
     "browserslist": "^4.21.4",
+    "dotenv": "^16.0.3",
     "hamburger-react": "^2.4.1",
     "react": "^17.0.2",
     "react-confetti": "^6.0.1",
