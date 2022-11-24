@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { popularProducts } from "../data";
 import Product from "./Product";
 import axios from "axios";
-import URL from "App";
+import URL from "../App";
 
 const Container = styled.div`
   padding: 20px;

@@ -1,5 +1,6 @@
 import axios from "axios";
-import URL from "App";
+import URL from "./App";
+
 
 const BASE_URL = `${URL}/api/`;
 const persistRoot = JSON.parse(localStorage.getItem("persist:root"))
