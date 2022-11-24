@@ -1,4 +1,4 @@
-import { Add, Remove, DeleteOutline } from "@material-ui/icons";
+import { Add, Remove, DeleteOutline } from "@mui/icons-material";
 import { useSelector } from "react-redux";
 import styled from "styled-components";
 import Announcement from "../components/Announcement";
@@ -11,9 +11,10 @@ import { addProduct, updateProduct, initalizeCart, deleteProduct } from "../redu
 import { useHistory } from "react-router";
 import { useDispatch } from "react-redux";
 import { mobile, tablet } from "../responsive";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const KEY = "pk_test_51JpYTJG7vsyfVZvHL3sFBuNgYB3DKlTQausr9afR6jQ7pmo8WByCVssdD70Dgvlni5lTXKSwPfdWPy9tVdd4a24s00KoM80JYx" 
+
 
 const Container = styled.div``;
 
