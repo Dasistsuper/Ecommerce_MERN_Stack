@@ -20,7 +20,7 @@ mongoose
   });
 
 app.use(cors({
-  origin: ["https://e-commerce-mern.onrender.com"],
+  origin: ["https://zamboza.onrender.com"],
 }));
 
 app.use(express.json());
