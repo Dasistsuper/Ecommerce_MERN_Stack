@@ -1,6 +1,7 @@
 import axios from "axios";
+import URL from "App";
 
-const BASE_URL = "http://localhost:5000/api/";
+const BASE_URL = `${URL}/api/`;
 const persistRoot = JSON.parse(localStorage.getItem("persist:root"))
 const TOKEN = persistRoot
 ? JSON.parse(persistRoot?.user)?.currentUser?.accessToken
