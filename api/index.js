@@ -19,10 +19,6 @@ mongoose
     console.log(err);
   });
 
-app.use(cors({
-  origin: ["https://e-commerce-mern.onrender.com"],
-}));
-
 app.use(express.json());
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
