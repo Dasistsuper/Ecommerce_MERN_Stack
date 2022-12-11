@@ -19,6 +19,13 @@ mongoose
     console.log(err);
   });
 
+<<<<<<< HEAD
+=======
+app.use(cors({
+  origin: ["https://zamboza.onrender.com"],
+}));
+
+>>>>>>> 75881197f724d514d83df0dffba02be7062cb2a4
 app.use(express.json());
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
@@ -26,6 +33,13 @@ app.use("/api/products", productRoute);
 app.use("/api/carts", cartRoute);
 app.use("/api/orders", orderRoute);
 app.use("/api/checkout", stripeRoute);
+
+app.use(express.static(path.join(__dirname, '/client')));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
+});
+
 
 app.listen(process.env.PORT || 5000, () => {
   console.log("Backend server is running!");
