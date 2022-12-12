@@ -12,11 +12,6 @@ Route } from "react-router-dom";
 import Success from "./pages/Success";
 import { useSelector } from "react-redux";
 
-<<<<<<< HEAD:client/src/App.jsx
-=======
-// export const URL = process.env.BACKEND_LINK;
->>>>>>> 75881197f724d514d83df0dffba02be7062cb2a4:api/client/src/App.jsx
-
 
 const App = () => {
  

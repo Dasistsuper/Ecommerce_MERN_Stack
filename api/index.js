@@ -19,13 +19,6 @@ mongoose
     console.log(err);
   });
 
-<<<<<<< HEAD
-=======
-app.use(cors({
-  origin: ["https://zamboza.onrender.com"],
-}));
-
->>>>>>> 75881197f724d514d83df0dffba02be7062cb2a4
 app.use(express.json());
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
